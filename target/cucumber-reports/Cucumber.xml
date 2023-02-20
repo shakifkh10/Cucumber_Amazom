@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="80.546">
+<testcase classname="Amazon test cases" name="Test case: login and add bed to cart" time="80.236">
+<system-out><![CDATA[Given Opening the browser...................................................passed
+Then Click Hello Sign In....................................................passed
+And Enter email "shakif.kh10@gmail.com".....................................passed
+And Enter continue..........................................................passed
+And Enter password "qacourse22".............................................passed
+Then Click Sign In..........................................................passed
+And Enter Search "Bed"......................................................passed
+And Click Search............................................................passed
+And Click Search Result.....................................................passed
+Then Click Add to cart......................................................passed
+And Click Cart..............................................................passed
+And Click Delete............................................................passed
+And Enter Search "Lamp".....................................................passed
+And Click Search............................................................passed
+And Click Search Result.....................................................passed
+Then Click Add to cart......................................................passed
+And Click Cart..............................................................passed
+And Click Delete............................................................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,276 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-20T17:11:30.187Z",
+        "line": 26,
+        "name": "Test case: login and add bed to cart",
+        "description": "",
+        "id": "amazon-test-cases;test-case:-login-and-add-bed-to-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5870000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Opening the browser",
+            "match": {
+              "location": "stepdefinitions.CommonSteps.opening_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1802000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click Hello Sign In",
+            "match": {
+              "location": "stepdefinitions.SignInPageSteps.click_Hello_Sign_In()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 283000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter email \"shakif.kh10@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shakif.kh10@gmail.com\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinitions.SignInPageSteps.enter_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1312000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter continue",
+            "match": {
+              "location": "stepdefinitions.SignInPageSteps.enter_continue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter password \"qacourse22\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"qacourse22\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefinitions.SignInPageSteps.enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20182000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Sign In",
+            "match": {
+              "location": "stepdefinitions.SignInPageSteps.click_Sign_In()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 336000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter Search \"Bed\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bed\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.SearchPageSteps.enter_Search(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5089000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click Search",
+            "match": {
+              "location": "stepdefinitions.SearchPageSteps.click_Search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9976000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click Search Result",
+            "match": {
+              "location": "stepdefinitions.SearchPageSteps.click_Search_Result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2165000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click Add to cart",
+            "match": {
+              "location": "stepdefinitions.SearchPageSteps.click_Add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4644000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click Cart",
+            "match": {
+              "location": "stepdefinitions.CheckOutPageSteps.click_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2231000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click Delete",
+            "match": {
+              "location": "stepdefinitions.CheckOutPageSteps.click_Delete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter Search \"Lamp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lamp\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.SearchPageSteps.enter_Search(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4336000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click Search",
+            "match": {
+              "location": "stepdefinitions.SearchPageSteps.click_Search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11462000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click Search Result",
+            "match": {
+              "location": "stepdefinitions.SearchPageSteps.click_Search_Result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1916000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click Add to cart",
+            "match": {
+              "location": "stepdefinitions.SearchPageSteps.click_Add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4889000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click Cart",
+            "match": {
+              "location": "stepdefinitions.CheckOutPageSteps.click_Cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2143000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click Delete",
+            "match": {
+              "location": "stepdefinitions.CheckOutPageSteps.click_Delete()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1074000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Close Browser",
+            "match": {
+              "location": "stepdefinitions.CheckOutPageSteps.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon test cases",
+    "description": "",
+    "id": "amazon-test-cases",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/feature/Test.feature",
+    "tags": []
+  }
+]
